@@ -9,7 +9,7 @@ const SocialNetwork = () => {
         return (
           <li key={category.id}>
             <a href={category.href} target="_blank">
-              <img src={category.img} alt={category.name} />
+              <img src={require(`../${category.img}`)} alt={category.name} />
             </a>
           </li>
         );

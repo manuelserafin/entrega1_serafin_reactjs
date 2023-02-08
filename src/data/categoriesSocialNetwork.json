@@ -3,18 +3,18 @@
     "id": 0,
     "name": "E-mail",
     "href": "mailto:info@chiquititocafe.com.ar?subject=Consulta%20desde%20sitio%20web",
-    "img": "../assets/image/logos/logo-mail.png"
+    "img": "image/logos/logo-mail.png"
   },
   {
     "id": 1,
     "name": "Whatsapp",
     "href": "https://wa.me/5493517895729",
-    "img": "../assets/image/logos/logo-wp.png"
+    "img": "image/logos/logo-wp.png"
   },
   {
     "id": 2,
     "name": "Instagram",
     "href": "https://www.instagram.com/chiquitito.cafe/",
-    "img": "../assets/image/logos/logo-ig.png"
+    "img": "image/logos/logo-ig.png"
   }
 ]

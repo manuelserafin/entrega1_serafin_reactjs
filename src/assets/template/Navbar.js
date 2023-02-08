@@ -8,7 +8,7 @@ const Navbar = () => {
       {CategoriesNavbar.map((category) => {
         return (
           <li key={category.id}>
-            <a href="#">{category.name}</a>
+            <a href="/">{category.name}</a>
           </li>
         );
       })}

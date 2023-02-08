@@ -38,6 +38,11 @@ header #sectionHeaderTop #shoppingCart {
   background-color: unset;
   border: unset;
 }
+header #sectionHeaderBottom nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 /* CartWidget.js styles */
 #cartCounter {
   color: white;
@@ -55,7 +60,9 @@ header #sectionHeaderTop #shoppingCart {
   display: flex;
 }
 #categoriesList li {
-  margin: 1vw 2vw 0;
+  margin: 1vw 2vw 0 0;
+  list-style: none;
+  text-decoration: none;
 }
 #categoriesList li a {
   font-family: texto;
@@ -63,4 +70,16 @@ header #sectionHeaderTop #shoppingCart {
   color: #e2dfdc;
   list-style: none;
   text-decoration: none;
+}
+/* SocialNetwork.js styles */
+#categoriesSocialNetwork {
+  display: flex;
+}
+#categoriesSocialNetwork li {
+  list-style: none;
+  text-decoration: none;
+  margin: 1vw 0 0 1vw;
+}
+#categoriesSocialNetwork li a img {
+  height: 24px;
 }

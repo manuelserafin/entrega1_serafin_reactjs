@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <header>
       <section id="sectionHeaderTop">
-        <a id="logoAndBrand" href="#">
+        <a id="logoAndBrand" href="/">
           <img src={LogoLong} alt="Logo Tienda Online" />
         </a>
         <button id="shoppingCart">
