@@ -6,7 +6,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <ItemListContainer props="Bienvenidos a la tienda" />
+      <ItemListContainer greeting="Bienvenidos a la tienda" />
     </>
   );
 };

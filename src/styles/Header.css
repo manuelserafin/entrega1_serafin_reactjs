@@ -19,7 +19,7 @@
 header {
   width: 100vw;
   background-color: black;
-  padding: 1vw 12vw;
+  padding: 1vw 12vw 0;
 }
 header #sectionHeaderTop {
   display: flex;
